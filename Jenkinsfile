@@ -28,7 +28,6 @@ pipeline {
             steps {
                 sh "yarn install"
                 sh "yarn build"
-                sh "tar -xvzf dist.tar.gz dist"
             }
         }
 
