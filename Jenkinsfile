@@ -15,7 +15,7 @@ pipeline {
     }
 
     parameters {
-        choice(name: 'BUILD_BRANCH', choices: 'master\ntest', description: '请选择部署的环境')
+        choice(name: 'BUILD_BRANCH', choices: 'dev\ntest', description: '请选择部署的环境')
     }
 
     tools {
