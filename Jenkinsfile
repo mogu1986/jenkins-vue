@@ -6,7 +6,6 @@ pipeline {
         // harbor 相关配置
         HARBOR = "harbor.top.mw"
         HARBOR_URL = "http://${HARBOR}"
-        HARBOR_CRED = credentials('harbor')
 
         IMAGE_NAME = "${HARBOR}/library/${JOB_NAME}:${BUILD_ID}"
 
