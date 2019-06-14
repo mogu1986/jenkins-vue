@@ -9,7 +9,7 @@ ADD ./dist /usr/local/openresty/nginx/html
 #RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
 #RUN cnpm install
 #COPY . .
-#RUN npm run build
+#RUN cnpm run build
 #
 ## production stage
 #FROM harbor.top.mw/library/openresty:1.13.6.2-centos
