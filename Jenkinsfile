@@ -61,7 +61,7 @@ pipeline {
                             extraVars: [
                                 lang: "${env.LANG}",
                                 app: [value: "${env.APP_NAME}", hidden: false],
-                                html_path: "${env.WORKSPACE}/html/"
+                                html_path: "${env.WORKSPACE}/dist/"
                             ]
                         )
                     }
