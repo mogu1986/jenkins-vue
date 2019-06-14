@@ -56,7 +56,6 @@ pipeline {
                             playbook: "playbook.yml",
                             inventory: "hosts/${params.BUILD_BRANCH}.ini",
                             hostKeyChecking: false,
-                            credentialsId: 'ansible',
                             colorized: true,
                             extraVars: [
                                 lang: "${env.LANG}",
