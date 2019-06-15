@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        // harbor 相关配置
+        // harbor 相关配
         HARBOR = "harbor.top.mw"
         HARBOR_URL = "http://${HARBOR}"
 
